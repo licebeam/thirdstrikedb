@@ -1,0 +1,35 @@
+function createData(name, health, modifier) {
+  return { name, health, modifier }
+}
+
+export const rows = [
+  createData("Q", 2050, "(with 3 taunts +37.5%)"),
+  createData("Hugo", 1870, "(with 4 taunts +25.3%)"),
+  createData("Q", 1705, "(with 2 taunts +25%)"),
+  createData("Hugo", 1670, "(with 3 taunts +19%)"),
+  createData("Hugo", 1535, "(with 2 taunts +12.7%)"),
+  createData("Hugo", 1470, "(with 1 taunt +6.3%)"),
+  createData("Chun-Li", 1470, '(with 1 "back stretch" taunt +31.3%)'),
+  createData("Q", 1400, "(with 1 taunt +12.5%)"),
+  createData("Hugo", 1385),
+  createData("Chun-Li", 1330, '(with 1 "shoulder tap" taunt +18.8%)'),
+  createData("Gill", 1300),
+  createData("Urien", 1285),
+  createData("Alex", 1200),
+  createData("Q", 1200),
+  createData("Ryu", 1200),
+  createData("Ken", 1200),
+  createData("Dudley", 1200),
+  createData("Makoto", 1200),
+  createData("Sean", 1120),
+  createData("Chun-Li", 1120),
+  createData("Oro", 1120),
+  createData("Elena", 1120),
+  createData("Necro", 1120),
+  createData("Remy", 1120),
+  createData("Twelve", 1050),
+  createData("Ibuki", 1035),
+  createData("Yun", 1020),
+  createData("Yang", 1020),
+  createData("Gouki", 985),
+]

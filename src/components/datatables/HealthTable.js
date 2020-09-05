@@ -22,11 +22,9 @@ export default function DenseTable({ rows }) {
       <Table className={classes.table} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
-            <TableCell>Dessert (100g serving)</TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat&nbsp;(g)</TableCell>
-            <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-            <TableCell align="right">Protein&nbsp;(g)</TableCell>
+            <TableCell>Character</TableCell>
+            <TableCell align="right">Health Value</TableCell>
+            <TableCell align="right">Modifier</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -35,10 +33,8 @@ export default function DenseTable({ rows }) {
               <TableCell component="th" scope="row">
                 {row.name}
               </TableCell>
-              <TableCell align="right">{row.calories}</TableCell>
-              <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
+              <TableCell align="right">{row.health}</TableCell>
+              <TableCell align="right">{row.modifier}</TableCell>
             </TableRow>
           ))}
         </TableBody>

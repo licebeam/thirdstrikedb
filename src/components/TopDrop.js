@@ -34,8 +34,11 @@ export default function SimpleMenu() {
         <Link to="/health/">
           <MenuItem onClick={handleClose}>Health Data</MenuItem>
         </Link>
-        <Link to="/health/">
-          <MenuItem onClick={handleClose}>Health Data</MenuItem>
+        <Link to="/taunt/">
+          <MenuItem onClick={handleClose}>Personal Action Data</MenuItem>
+        </Link>
+        <Link to="/dashdata/">
+          <MenuItem onClick={handleClose}>Dash Data</MenuItem>
         </Link>
       </Menu>
     </div>

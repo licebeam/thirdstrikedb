@@ -16,7 +16,7 @@ const useStyles = makeStyles({
 
 export default function DenseTable({ rows }) {
   const classes = useStyles()
-
+  console.log(rows)
   return (
     <TableContainer component={Paper}>
       <Table className={classes.table} size="small" aria-label="a dense table">
@@ -28,8 +28,8 @@ export default function DenseTable({ rows }) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map(row => (
-            <TableRow key={row.name}>
+          {rows.map((row, i) => (
+            <TableRow key={row.name + i}>
               <TableCell component="th" scope="row">
                 {row.name}
               </TableCell>

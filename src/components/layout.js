@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Created by
           {` `}
           <a href="https://discord.gg/EPrDpT">Rice and Mayo</a>
         </footer>

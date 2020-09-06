@@ -31,10 +31,10 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <Link to="/health/">
+        <Link to="/healthdata/">
           <MenuItem onClick={handleClose}>Health Data</MenuItem>
         </Link>
-        <Link to="/taunt/">
+        <Link to="/tauntdata/">
           <MenuItem onClick={handleClose}>Personal Action Data</MenuItem>
         </Link>
         <Link to="/dashdata/">
